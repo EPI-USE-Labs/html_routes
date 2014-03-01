@@ -9,14 +9,14 @@ Gem::Specification.new do |s|
   s.version     = HtmlRoutes::VERSION
   s.authors     = ['Pierre Pretorius']
   s.email       = ['pierre@labs.epiuse.com']
-  s.homepage    = 'https://github.com/pierre-pretorius/activesupport-decorators'
-  s.summary     = 'Adds the decorator pattern to activesupport class loading.'
-  s.description = 'Useful when extending functionality with Rails engines.'
+  s.homepage    = 'https://github.com/pierre-pretorius/html_routes'
+  s.summary     = 'Output your Rails routes to html.'
+  s.description = 'Generate a syntax highligthed HTML file from your Rails routes.'
   s.license     = 'MIT'
 
-  s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.md']
+  s.files = Dir['{lib}/**/*', 'MIT-LICENSE', 'README.md']
 
-  s.add_dependency 'rails', '>= 2.3'
-  s.add_dependency 'syntax', '~> 1.1'
-  s.add_dependency 'launchy'
+  s.add_dependency 'rails', '~> 2'
+  s.add_dependency 'syntax', '~> 1'
+  s.add_dependency 'launchy', '~> 2'
 end
