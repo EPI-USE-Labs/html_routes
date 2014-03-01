@@ -10,7 +10,7 @@ Output your Rails routes to html:
 Add it to your Gemfile and run bundle install:
 
 ```ruby
-gem 'html_routes'
+gem 'html_routes', '~> 1.0'
 ```
 
 ## Usage
