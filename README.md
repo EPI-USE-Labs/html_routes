@@ -7,10 +7,10 @@ Output your Rails routes to html.  It is automatically opened by your browser, b
 
 ## Installation
 
-Add it to your Gemfile and run bundle install:
+Add it to your Gemfile and run bundle install.
 
 ```ruby
-gem 'html_routes', '~> 1.0'
+gem 'html_routes', '~> 1.0', group: :development
 ```
 
 ## Usage
