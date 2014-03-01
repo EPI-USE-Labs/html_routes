@@ -1,7 +1,7 @@
 Rails HtmlRoutes
 ================
 
-Output your Rails routes to html:
+Output your Rails routes to html.  It is automatically opened by your browser, but this option can be disabled.
 
 ![HTML Routes](./example.png "HtmlRoutes")
 
