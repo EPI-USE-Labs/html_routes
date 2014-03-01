@@ -7,7 +7,7 @@ Output your Rails routes to html:
 
 ## Installation
 
-Add to gemfile:
+Add it to your Gemfile and run bundle install:
 
 ```ruby
 gem 'html_routes'
@@ -19,13 +19,13 @@ gem 'html_routes'
 rake html_routes
 ```
 
-Specify a custom output file:
+To specify a custom output file:
 
 ```bash
 rake html_routes out=tmp/custom_file.html
 ```
 
-If you don't want to open it in your browser automatically:
+If you don't want the output file to open in your browser automatically:
 
 ```bash
 rake html_routes background=true
