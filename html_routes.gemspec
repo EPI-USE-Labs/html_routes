@@ -16,7 +16,6 @@ Gem::Specification.new do |s|
 
   s.files = Dir['{lib}/**/*', 'MIT-LICENSE', 'README.md']
 
-  s.add_dependency 'rails', '~> 2'
-  s.add_dependency 'syntax', '~> 1'
-  s.add_dependency 'launchy', '~> 2'
+  s.add_dependency 'syntax', '~> 1.0'
+  s.add_dependency 'launchy', '~> 2.0'
 end
