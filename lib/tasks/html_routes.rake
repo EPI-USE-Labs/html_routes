@@ -37,7 +37,7 @@ task html_routes: :environment do
         reqs = route.requirements.inspect
         verb = route.verb.source
         verb = verb[1..(verb.length - 2)] if verb
-        r = { name: route.name, verb: verb, path: route.path, reqs: reqs }
+        r = { name: route.name, verb: verb, path: route.path.spec.to_s, reqs: reqs }
         f.puts "<tr><td width='12%'><b>#{r[:name]}</b></td><td width='5%'><b>#{r[:verb]}</b></td>" +
                    "<td width='3%'>#{r[:path]}</td><td width='80%'>#{convertor.convert(r[:reqs])}</td></tr>"
       end
